@@ -32,8 +32,6 @@ options:
 # The Beginning 🕰️
 ## How It All Started
 
-<!-- end_slide -->
-
 ## The 1960s: Birth of Computing
 
 **The Mainframe Era**

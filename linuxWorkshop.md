@@ -1,6 +1,6 @@
 ---
 title: "Shell Scripting & Process Management"
-author: "GDG Workshop - Aadesh"
+author: "GDG Workshop - Aadesh Chaudhari"
 theme:
   name: gruvbox-dark
   override:
@@ -14,25 +14,7 @@ options:
   implicit_slide_ends: false
 ---
 
-# Shell Scripting & Process Management 🚀
-
-**Master the Terminal**
-
-> "The shell is your steering wheel to the system."
-
----
-
-**Today's Journey:**
-
-1. 🔧 Shell Scripting Basics
-2. 📝 Variables & User Input
-3. 🔄 Control Flow (Loops & Conditions)
-4. ⚙️ Process Management
-5. 🎯 Real-World Practice
-
-<!-- end_slide -->
-
-# Part 1: Shell Scripting
+# Shell Scripting
 
 ## What is Shell Scripting?
 

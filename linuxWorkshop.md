@@ -16,20 +16,16 @@ options:
 ---
 
 # Part 1: Introduction & Foundations 🚀
-## Understanding Linux & Getting Started
-
-**Duration:** 45 minutes (0:00 - 0:45)
-
-<!-- end_slide -->
 
 ## Today's Journey
 
 **What We'll Cover:**
 1. The Evolution: From Mainframes to Linux
-2. Understanding the Terminology
-3. Kernel vs Operating System
-4. Why Linux Dominates
+2. Understanding the Terminology (CLI, Shell, Terminal, GUI)
+3. Kernel Deep Dive
+4. Why Linux is the Best
 5. GNU & The Free Software Movement
+6. Linux Distributions
 
 <!-- end_slide -->
 
@@ -110,7 +106,6 @@ Universities wanted to teach it, but couldn't afford it!
 * Teaching tool for operating systems
 * UNIX-like, but simplified
 * Source code available (for education)
-* Restrictive licensing
 
 A Finnish student named **Linus Torvalds** was using it...
 
@@ -127,17 +122,6 @@ A Finnish student named **Linus Torvalds** was using it...
 * Released under GPL (completely free)
 * Invited collaboration from anyone
 * Combined with GNU tools = Complete OS!
-
-<!-- end_slide -->
-
-## Why "Linux" Won 🏆
-
-**The Perfect Storm:**
-1. **Free & Open Source:** Anyone could use, modify, distribute
-2. **GNU Tools Ready:** Complete ecosystem existed
-3. **Internet Timing:** Could collaborate globally
-4. **Community Driven:** Thousands contributed
-5. **Unix Philosophy:** Well-tested design principles
 
 <!-- end_slide -->
 
@@ -187,20 +171,6 @@ A Finnish student named **Linus Torvalds** was using it...
 **Think of it as:**
 * The shell is the **translator**
 * You speak human → Shell speaks machine
-
-<!-- end_slide -->
-
-## Popular Shells
-
-| Shell | Name | Notes |
-| :--- | :--- | :--- |
-| `sh` | Bourne Shell | The original (1979) |
-| `bash` | Bourne Again Shell | Most common default |
-| `zsh` | Z Shell | Modern, feature-rich (macOS default) |
-| `fish` | Friendly Interactive Shell | Beginner-friendly |
-
-> [!TIP]
-> We'll use **bash** today as it's the most universal!
 
 <!-- end_slide -->
 
@@ -277,22 +247,6 @@ When you open a browser:
 
 <!-- end_slide -->
 
-## What is an Operating System? 💿
-
-**The OS is EVERYTHING:**
-* Kernel + System Software + Utilities
-* User interface (GUI or CLI)
-* System libraries
-* Configuration tools
-* Application frameworks
-
-**Formula:**
-```
-Operating System = Kernel + Everything Else
-```
-
-<!-- end_slide -->
-
 ## Linux: The Kernel 🐧
 
 **Technically Speaking:**
@@ -352,389 +306,171 @@ int fd = open("/home/user/data.txt", O_RDONLY);
 
 <!-- end_slide -->
 
-## Types of Kernels
 
-**Monolithic (Linux)**
-* Everything in one big kernel
-* Drivers, file systems, networking - all included
-* Fast but large
-* Linux approach
-
-**Microkernel**
-* Minimal core functionality
-* Most services run in user space
-* More stable, slower
-* Example: MINIX, QNX
-
-**Hybrid**
-* Mix of both approaches
-* Example: Windows NT, macOS
-
-<!-- end_slide -->
 
 # Why Linux is the Best 🏆
-## (For Most Things!)
+## Dominating the Tech World
 
 <!-- end_slide -->
 
-## Linux Dominates The World
+## Linux Runs Everything
 
-**Where Linux Runs:**
-* 96.3% of top 1 million web servers
-* 100% of top 500 supercomputers
-* Every Android phone (Linux kernel)
-* Billions of IoT devices
+**Where Linux Dominates:**
+* **96.3%** of top 1 million web servers
+* **100%** of top 500 supercomputers
+* **Billions** of Android devices (Linux kernel)
 * Most cloud infrastructure (AWS, Google Cloud, Azure)
-* Mars rovers and ISS systems
-* Your smart TV, router, car infotainment...
+* Mars rovers, ISS systems, CERN particle accelerators
+* Your smart TV, router, car infotainment system
+* IoT devices everywhere
+
+**If you used the internet today, you used Linux!**
 
 <!-- end_slide -->
 
-## Why Linux Won
+## Why Linux is Superior
 
-**1. It's Free (Freedom + Price)**
-* No licensing costs
-* Can modify source code
-* Redistribute freely
-* No vendor lock-in
+**1. Freedom & Cost**
+* Completely free (no licensing fees)
+* Full access to source code
+* Modify and redistribute as you wish
+* No vendor lock-in or forced upgrades
 
-**2. Security**
-* Open source = Many eyes reviewing
-* Fast security patches
+**2. Security & Privacy**
+* Open source = thousands review the code
+* Fast security patches from global community
 * Granular permission system
-* Less malware targets it
+* No telemetry or data collection by default
+* Less malware targeting Linux
 
 <!-- end_slide -->
 
-## Why Linux Won (cont.)
+## Why Linux is Superior (cont.)
 
 **3. Stability & Performance**
-* Can run for years without reboot
+* Servers run for years without reboot
 * Efficient resource usage
-* Scales from smartwatch to supercomputer
-* No forced updates or restarts
+* Scales from Raspberry Pi to supercomputers
+* No forced updates interrupting your work
+* Choose when and what to update
 
-**4. Customization**
-* Change EVERYTHING
-* Choose your desktop environment
+**4. Total Customization**
+* Change absolutely everything
+* Pick your desktop environment
 * Mix and match components
 * Build your own distribution
+* Make it look and work exactly how you want
 
 <!-- end_slide -->
 
-## Why Linux Won (cont.)
+## Why Linux is Superior (cont.)
 
-**5. Developer Heaven**
-* Best programming tools included
-* Package managers for easy installs
-* Native Docker support
-* Most languages install easily
-* Remote access built-in (SSH)
+**5. Developer Paradise**
+* Best programming tools included free
+* Package managers for instant software installs
+* Native Docker and container support
+* Every major language available
+* Built-in remote access (SSH)
+* Version control (git) integrated everywhere
 
-**6. Community**
-* Massive global community
-* Free support forums
-* Extensive documentation
-* Thousands of contributors
+**6. Community Power**
+* Massive global community helping each other
+* Free support on forums, IRC, Discord
+* Extensive documentation and tutorials
+* Thousands of contributors improving it daily
 
 <!-- end_slide -->
 
-## The Power of Open Source 💪
+## The Numbers Don't Lie 📊
 
-**Linux Development Model:**
-* Anyone can contribute code
-* Reviewed by maintainers
-* Best solutions win
-* Meritocracy-based
-
-**The Numbers:**
+**Linux Development:**
 * 30+ million lines of code
-* 20,000+ contributors
+* 20,000+ contributors worldwide
 * 15,000+ companies involved
-* New version every 9-10 weeks
+* New kernel version every 9-10 weeks
+* Most actively developed OS in history
 
-<!-- end_slide -->
-
-## Linux vs Others: Quick Compare
-
-| Feature | Linux | Windows | macOS |
-| :--- | :--- | :--- | :--- |
-| Cost | Free | $100+ | $1000+ (with Mac) |
-| Source | Open | Closed | Closed |
-| Customization | Total | Limited | Limited |
-| Privacy | Excellent | Concerns | Concerns |
-| Servers | 96% | 4% | <1% |
-| Updates | Your choice | Forced | Frequent |
+**The Internet Runs on Linux:**
+* Google, Facebook, Amazon - all Linux
+* Netflix, Spotify, YouTube - Linux servers
+* Stock exchanges - Linux
+* Banking systems - Linux
 
 <!-- end_slide -->
 
 ## Real World Impact 🌍
 
-**Financial Systems:**
-* Stock exchanges run Linux
-* Banking infrastructure
-* Payment processing
-
-**Entertainment:**
-* Netflix servers
-* Disney/Pixar render farms
-* Spotify, YouTube infrastructure
-
-**Science:**
-* CERN particle accelerators
+**Science & Research:**
+* CERN's Large Hadron Collider
 * Human Genome Project
 * Climate modeling systems
+* Space exploration (NASA, SpaceX)
+
+**Entertainment:**
+* Hollywood render farms (Pixar, Disney)
+* Game servers
+* Streaming infrastructure
+
+**Critical Infrastructure:**
+* Air traffic control
+* Power grids
+* Telecommunications
+* Financial systems
+
+**Linux literally runs the modern world!**
 
 <!-- end_slide -->
 
 # GNU & The Movement 🦬
-## More Than Just Software
+## The Missing Piece
 
 <!-- end_slide -->
 
 ## What is GNU?
 
-**GNU = GNU's Not Unix**
-* Started in 1983 by Richard Stallman
-* Goal: Create completely free UNIX replacement
-* Developed all the essential tools
+**GNU = GNU's Not Unix** (recursive acronym!)
+* Started 1983 by Richard Stallman
+* Goal: Free UNIX replacement
+* Built all the essential tools
 
-**The GNU Components:**
-* bash (shell)
-* GCC (compiler)
-* coreutils (ls, cp, mv, cat, etc.)
-* glibc (C library)
-* GNU Make, grep, sed, awk...
+**The GNU Toolkit:**
+* bash, GCC, coreutils (ls, cp, mv)
+* glibc, Make, grep, sed, awk
+* Everything except... the kernel!
 
 <!-- end_slide -->
 
-## The Four Freedoms
+## The Four Freedoms 🕊️
 
-**Free Software Definition:**
+**Free Software means:**
 
-0. **Freedom to RUN** the program for any purpose
-1. **Freedom to STUDY** how it works (source code)
-2. **Freedom to REDISTRIBUTE** copies
-3. **Freedom to IMPROVE** and share improvements
+0. **Run** - Use for any purpose
+1. **Study** - Examine source code
+2. **Share** - Redistribute copies
+3. **Improve** - Modify and share changes
 
 **"Free as in freedom, not just free beer"**
 
 <!-- end_slide -->
 
-## GNU + Linux = Complete OS
+## GNU + Linux = Perfect Match 🤝
 
-**Before 1991:**
-* GNU had: tools, compiler, shell, utilities
-* GNU needed: a kernel (GNU Hurd was incomplete)
+**The Problem (1991):**
+* GNU had: compiler, shell, tools ✅
+* GNU needed: a working kernel ❌
+* Linus had: a working kernel ✅
+* Linux needed: all the tools ❌
 
-**After 1991:**
-* Linus released Linux kernel
-* Linux needed: all the userspace tools
-* Perfect match! 🤝
+**The Solution:**
+```
+Linux Kernel + GNU Tools = Complete Free OS
+```
 
-**Result:**
-* Linux kernel + GNU tools = GNU/Linux system
-* Most people just say "Linux"
-
-<!-- end_slide -->
-
-## GPL: The License 📜
-
-**GNU General Public License**
-* Copyleft license (not copyright!)
-* You CAN: use, modify, distribute
-* You MUST: share source code if you distribute
-* Modifications must also be GPL
-
-**The Viral Effect:**
-* Any code linking to GPL code becomes GPL
-* Prevents "embrace and extend"
-* Ensures freedom propagates
-
-<!-- end_slide -->
-
-## Open Source vs Free Software
-
-**Free Software (FSF/GNU)**
-* Emphasis on freedom and ethics
-* Must follow the four freedoms
-* GPL licensing preferred
-
-**Open Source (OSI)**
-* Emphasis on practical benefits
-* More permissive licenses okay
-* Business-friendly approach
-
-**Linux:** Uses GPL but community includes both philosophies
-
-<!-- end_slide -->
-
-## Why GNU Matters
-
-**Without GNU:**
-* Linux kernel would be useless alone
-* Need compiler to build more software
-* Need shell to interact with system
-* Need core utilities for basic operations
-
-**GNU Provided:**
-* The entire userland
-* Development toolchain
-* Philosophy of freedom
-* Community model
-
-<!-- end_slide -->
-
-## The Impact Today
-
-**GNU Tools Run Everywhere:**
-* Every Linux distribution
-* macOS (many GNU tools)
-* Android (some GNU components)
-* Embedded systems
-* Your router, TV, car...
-
-**The Philosophy Lives:**
-* GitHub, GitLab host millions of open projects
-* Modern languages (Python, Go, Rust) are open
-* Open source is now the norm for infrastructure
-
-<!-- end_slide -->
-
-## Linux Distributions Explained 🎨
-
-**A Distribution ("Distro") is:**
-* Linux kernel
-* + GNU tools
-* + Package manager
-* + Desktop environment (optional)
-* + Pre-configured settings
-* + Their own philosophy
-
-**Popular Families:**
-* Debian → Ubuntu → Mint, Pop!_OS
-* Red Hat → Fedora → CentOS
-* Arch → Manjaro, EndeavourOS
-
-<!-- end_slide -->
-
-## Choosing a Distribution
-
-**For Beginners:**
-* **Ubuntu** - Most popular, massive support
-* **Linux Mint** - Very Windows-like
-* **Pop!_OS** - Great for gaming
-
-**For Servers:**
-* **Ubuntu Server** / **Debian**
-* **Red Hat Enterprise Linux**
-* **Rocky Linux** / **AlmaLinux**
-
-**For Advanced Users:**
-* **Arch Linux** - Build it yourself
-* **Gentoo** - Compile everything!
-
-<!-- end_slide -->
-
-## Package Managers 📦
-
-**What They Do:**
-* Install software with one command
-* Handle dependencies automatically
-* Keep everything updated
-* Remove software cleanly
-
-**Major Package Managers:**
-* `apt` (Debian, Ubuntu)
-* `dnf` / `yum` (Fedora, RHEL)
-* `pacman` (Arch)
-* `zypper` (openSUSE)
-
-<!-- end_slide -->
-
-## Desktop Environments 🖼️
-
-**Linux Lets You Choose Your Interface!**
-
-**Popular Options:**
-* **GNOME** - Modern, macOS-like
-* **KDE Plasma** - Feature-rich, Windows-like
-* **XFCE** - Lightweight, fast
-* **Cinnamon** - Traditional, elegant
-* **i3/sway** - Tiling, keyboard-driven
-
-You can switch anytime!
-
-<!-- end_slide -->
-
-# Quick Recap 📝
-## What We Learned
-
-<!-- end_slide -->
-
-## The Journey So Far
-
-**History:**
-* UNIX (1969) → Expensive, proprietary
-* GNU (1983) → Free tools, no kernel
-* Linux (1991) → Free kernel
-* GNU + Linux = Complete free OS
-
-**Terminology:**
-* **Terminal:** The window/app
-* **Shell:** The command interpreter
-* **CLI:** Text-based interface
-* **GUI:** Graphical interface
-
-<!-- end_slide -->
-
-## The Journey So Far (cont.)
-
-**Technical Understanding:**
-* **Kernel:** Core that manages hardware
-* **OS:** Kernel + all the software
-* **Linux:** Is the kernel
-* **GNU/Linux:** The complete system
-
-**Why Linux:**
-* Free & open source
-* Secure & stable
-* Highly customizable
-* Runs the world's infrastructure
-* Amazing community
-
-<!-- end_slide -->
-
-## Looking Ahead 👀
-
-**Next Up:**
-* Exploring the file system
-* Basic commands and navigation
-* Understanding permissions
-* Shell scripting basics
-
-**Remember:**
-* Linux mastery takes time
-* Practice regularly
-* Don't be afraid to break things (in VM!)
-* The community is here to help
-
-<!-- end_slide -->
-
-# Questions? 🤔
-
-**Resources to Continue Learning:**
-* Linux Journey: linuxjourney.com
-* OverTheWire (wargames): overthewire.org
-* /r/linux4noobs on Reddit
-* Linux Documentation Project
-* Man pages (`man command`)
+Most people call it "Linux", technically it's "GNU/Linux"
 
 <!-- end_slide -->
 
 # Let's Get Hands-On! 🚀
-## Ready to Dive Into the Terminal?
 
 **Next Section:** Navigation & File System Basics
-
 <!-- end_slide -->

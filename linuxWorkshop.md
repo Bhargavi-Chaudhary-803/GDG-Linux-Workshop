@@ -316,29 +316,6 @@ graph TB
 "Linux OS" = Linux kernel + GNU tools + apps
 Most people just say "Linux"
 -->
-
-<!-- end_slide -->
-
-# Kernel Architecture
-
-```text
-┌──────────────────────────────┐
-│  Applications (User Space)   │  ← Your programs
-├──────────────────────────────┤
-│  System Call Interface       │  ← Gateway
-├──────────────────────────────┤
-│  Linux Kernel:               │
-│  • Process Management        │
-│  • Memory Management         │  ← Core OS
-│  • File Systems              │
-│  • Device Drivers            │
-├──────────────────────────────┤
-│  Hardware                    │  ← CPU, RAM, Disk
-└──────────────────────────────┘
-```
-
-<!-- pause -->
-
 **Key Point:** Applications can't touch hardware directly!
 * Must ask kernel via system calls
 * Kernel validates and executes safely
@@ -351,7 +328,6 @@ System calls are the only way to request services
 
 <!-- end_slide -->
 
-<!-- jump_to_middle -->
 
 # Why Linux is the Best 🏆
 
@@ -480,41 +456,7 @@ Free software powering trillion-dollar industries
 
 <!-- end_slide -->
 
-<!-- jump_to_middle -->
-
 # GNU & Free Software 🦬
-
-<!-- end_slide -->
-
-# The Four Freedoms
-
-<!-- pause -->
-
-**Free Software Means:**
-
-<!-- incremental_lists: true -->
-
-**0. Freedom to RUN**
-* Use for any purpose
-
-**1. Freedom to STUDY**
-* Examine the source code
-
-**2. Freedom to SHARE**
-* Redistribute copies
-
-**3. Freedom to IMPROVE**
-* Modify and share your changes
-
-<!-- pause -->
-
-> "Free as in **freedom**, not just free beer"
-
-<!-- speaker_note:
-These are the core principles of free software
-"Free" = liberty, not just price
-Rights that proprietary software denies you
--->
 
 <!-- end_slide -->
 
@@ -559,121 +501,6 @@ Together they changed the world
 -->
 
 <!-- end_slide -->
-
-# GPL License
-
-<!-- pause -->
-
-**GNU Public License (GPL):**
-
-<!-- incremental_lists: true -->
-
-* You can use the software freely
-* You can modify the source code
-* You can distribute it
-* **BUT:** If you share modified versions, you must:
-  * Keep it free (GPL)
-  * Share your source code too
-
-<!-- pause -->
-
-**This ensures:**
-* Software stays free forever
-* Improvements benefit everyone
-* No one can make it proprietary
-
-<!-- pause -->
-
-> "Copyleft" - the opposite of copyright!
-
-<!-- speaker_note:
-GPL is viral - keeps software free
-If you use GPL code, your code must be GPL too
-This is why Linux will always be free
-Contrast with permissive licenses (MIT, BSD)
--->
-
-<!-- end_slide -->
-
-# Desktop Linux
-
-<!-- pause -->
-
-**Popular Distributions:**
-
-<!-- columns -->
-
-<!-- column: 0.5 -->
-
-**Beginner-Friendly:**
-* Ubuntu
-* Linux Mint
-* Pop!_OS
-* Zorin OS
-
-<!-- column: 0.5 -->
-
-**Advanced:**
-* Arch Linux
-* Fedora
-* Debian
-* Gentoo
-
-<!-- reset_layout -->
-
-<!-- pause -->
-
-**Desktop Environments:**
-* GNOME (Ubuntu default)
-* KDE Plasma (beautiful & customizable)
-* XFCE (lightweight)
-* Cinnamon (traditional)
-
-<!-- speaker_note:
-Desktop Linux is only ~3% market share
-But growing steadily
-Great for developers and power users
-Many choices - find what fits you!
--->
-
-<!-- end_slide -->
-
-<!-- jump_to_middle -->
-
-# Key Takeaways 🎯
-
-<!-- pause -->
-
-<!-- incremental_lists: true -->
-
-1. **History:** UNIX (1969) → GNU (1983) → Linux (1991)
-
-2. **Terms:**
-   * Terminal = window | Shell = interpreter
-   * Kernel = core | OS = complete system
-
-3. **Dominance:** Linux runs 96%+ of servers & 100% of supercomputers
-
-4. **Why:** Free, secure, stable, customizable
-
-5. **GNU:** Provided the tools, Linux provided the kernel
-
-6. **Freedom:** Four freedoms ensure software stays free
-
-<!-- pause -->
-
-> **You're already using Linux - now you know why it matters!**
-
-<!-- speaker_note:
-Recap the essential points
-Linux is everywhere, powering the digital world
-Built by community, free for everyone
-Understanding these basics is foundation for everything else
--->
-
-<!-- end_slide -->
-
-<!-- jump_to_middle -->
 
 # Next Up: Hands-On! 🚀
 

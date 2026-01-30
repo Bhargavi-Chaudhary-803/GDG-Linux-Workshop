@@ -338,15 +338,6 @@ Together = revolution
 
 <!-- pause -->
 
-```mermaid
-graph LR
-    A[GNU Tools<br/>No Kernel] + B[Linux Kernel<br/>No Tools] = C[Complete<br/>Free OS!]
-    
-    style A fill:#fff3e0,stroke:#333
-    style B fill:#e3f2fd,stroke:#333
-    style C fill:#c8e6c9,stroke:#333,stroke-width:3px
-```
-
 <!-- pause -->
 * Linux provided the kernel
 * GNU provided everything else

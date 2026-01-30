@@ -1,6 +1,6 @@
 ---
 title: "Linux Essentials - Part 1"
-sub_title: "Introduction & Foundations 🚀"
+sub_title: "Introduction & Foundations "
 author: "GDG Workshop"
 theme:
   name: gruvbox-dark
@@ -301,7 +301,7 @@ Together = revolution
 
 <!-- end_slide -->
 
-# 1983: GNU Project 🦬
+# 1983: GNU Project 
 
 <!-- pause -->
 
@@ -316,15 +316,15 @@ Together = revolution
 <!-- column: 0.5 -->
 
 **What GNU Built:**
-* ✅ GCC compiler
-* ✅ bash shell
-* ✅ Core tools (ls, cp, mv)
-* ✅ Text editor (emacs)
+* GCC compiler
+* bash shell
+* Core tools (ls, cp, mv)
+* Text editor (emacs)
 
 <!-- column: 0.5 -->
 
 **What Was Missing:**
-* ❌ **The Kernel**
+* **The Kernel**
 
 <!-- reset_layout -->
 
@@ -625,7 +625,7 @@ Username can be different from Windows username
 
 <!-- jump_to_middle -->
 
-# Terminal & Shell 💻
+# Terminal & Shell 
 
 <!-- end_slide -->
 
